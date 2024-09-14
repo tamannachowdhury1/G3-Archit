@@ -58,3 +58,42 @@ nav li a {
 .banner-description {
     color: #727272;
 }
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: none;
+}
+
+/* responsibe mobile devices */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 50px;
+    }
+}
