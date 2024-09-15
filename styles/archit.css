@@ -248,6 +248,16 @@ main {
 
     }
 
+    .features-content .card {
+
+
+        margin: 0 20px;
+        padding: 30px;
+        margin-bottom: 5px;
+
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    }
+
     .ten-years-badge {
         position: static;
         max-width: 270px;
