@@ -260,6 +260,18 @@ main {
     .facts-card-container {
         gap: 20px;
     }
+
+    .ft-content {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+
+    }
+
+    .ftp {
+        padding: 18px 35px;
+    }
+
 }
 
 /* tablet or medium devices */
