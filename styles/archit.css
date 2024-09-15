@@ -226,9 +226,7 @@ main {
 
 /* responsibe mobile devices */
 @media screen and (max-width: 576px) {
-    * {
-        margin: 0;
-    }
+
 
     nav,
     .teams-container,
@@ -244,8 +242,10 @@ main {
 
     .feature-img img {
 
-        width: 350px;
-        margin-left: 5px;
+        width: 320px;
+        margin: auto;
+        margin-left: 27px;
+
     }
 
     .ten-years-badge {
