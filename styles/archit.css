@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0 0 10px;
 }
 
 
@@ -144,7 +145,8 @@ main {
 }
 
 .feature-img img {
-    /* height: 90%; */
+
+
     width: 708px;
     height: 982px;
     margin-left: 50px;
@@ -238,14 +240,20 @@ main {
     }
 
     .feature-img img {
-        width: 90%;
-        margin-left: 0;
+
+        width: 350px;
+        margin-left: 18px;
     }
 
     .ten-years-badge {
         position: static;
-        max-width: 300px;
+        max-width: 270px;
+        /* margin-left: 30px; */
+        padding: 20px;
+        margin: auto;
     }
+
+
 
     .teams-image-conteiner {
         grid-template-columns: 1fr;
@@ -290,10 +298,7 @@ main {
         padding: 50px;
     }
 
-    .feature-img img {
-        width: 90%;
 
-    }
 
     .facts-card-container {
 
